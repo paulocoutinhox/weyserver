@@ -29,6 +29,6 @@ func main() {
 	err := router.Run(fmt.Sprintf("%v:%d", *host, *port))
 
 	if err != nil {
-		log.Printf("Error on start server: %v\n", err)
+		log.Printf("Error on start WeyServer: %v\n", err)
 	}
 }
